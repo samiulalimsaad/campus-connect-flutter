@@ -1,4 +1,7 @@
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
+
 class Course extends StatefulWidget {
   const Course({Key? key}) : super(key: key);
 
@@ -11,7 +14,7 @@ class _CourseState extends State<Course> {
   Widget build(BuildContext context) {
     return DefaultTabController(
       length: 3,
-      child: Scaffold (
+      child: Scaffold(
         appBar: AppBar(
           centerTitle: true,
           title: const Text("Course Details"),
@@ -20,45 +23,39 @@ class _CourseState extends State<Course> {
           children: [
             TabBar(tabs: [
               Tab(
-
-              child: Row(
-                children: [
-
-                  Text("Courses", style: TextStyle(color: Colors.black, fontSize: 20),),
-                ],
+                child: Row(
+                  children: [
+                    Text(
+                      "Courses",
+                      style: TextStyle(color: Colors.black, fontSize: 20),
+                    ),
+                  ],
+                ),
               ),
-
-
-      ),
-
-      Tab(
-          child: Row(
-            children: [
-
-              Text("Sessions", style: TextStyle(color: Colors.black, fontSize: 20),),
-            ],
-          ),
-
-
-      ),
-      Tab(
-        child: Row(
-          children: [
-
-            Text("Enrolls", style: TextStyle(color: Colors.black, fontSize: 20),),
+              Tab(
+                child: Row(
+                  children: [
+                    Text(
+                      "Sessions",
+                      style: TextStyle(color: Colors.black, fontSize: 20),
+                    ),
+                  ],
+                ),
+              ),
+              Tab(
+                child: Row(
+                  children: [
+                    Text(
+                      "Enrolls",
+                      style: TextStyle(color: Colors.black, fontSize: 20),
+                    ),
+                  ],
+                ),
+              ),
+            ]),
           ],
         ),
-
       ),
-
-
-    ]),
-    ],
-      ),
-
-    ),
     );
-
   }
-
 }

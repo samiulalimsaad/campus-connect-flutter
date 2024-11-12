@@ -1,3 +1,5 @@
+// ignore_for_file: unused_import, duplicate_import
+
 import 'package:flutter/material.dart';
 import 'package:campus_connect/Course.dart';
 import 'package:campus_connect/Profile.dart';
