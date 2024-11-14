@@ -46,7 +46,7 @@ class Home extends StatelessWidget {
                   ],
                 ),
                 onPressed: () {
-                 
+                  //
                 },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: GlobalColors.mainColor,
@@ -72,7 +72,7 @@ class Home extends StatelessWidget {
                   ],
                 ),
                 onPressed: () {
-                  
+                  //
                 },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: GlobalColors.mainColor,
