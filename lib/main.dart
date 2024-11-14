@@ -9,6 +9,7 @@ import 'Course.dart';
 import 'CourseSessionScreen.dart';
 import 'Bar.dart';
 import 'Profile.dart';
+import 'information.dart';
 
 void main() => runApp(const MyApp());
 
