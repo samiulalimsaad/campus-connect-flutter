@@ -64,7 +64,7 @@ class Home extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text("Courses"),
-                    SizedBox(width: 10),
+                    SizedBox(width: 11),
                     Icon(
                       Icons.book,
                       size: 50,
@@ -77,22 +77,25 @@ class Home extends StatelessWidget {
                 style: ElevatedButton.styleFrom(
                   backgroundColor: GlobalColors.mainColor,
                   padding: EdgeInsets.all(20.0),
-                  fixedSize: Size(300, 80),
-                  textStyle: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
+
+                  fixedSize: Size(305, 80),
+                  textStyle: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
                   side: BorderSide(color: Colors.black87, width: 2),
                   shape: StadiumBorder(),
                 ),
               ),
-              SizedBox(height: 10.0),
+
+              SizedBox(height: 11.0),
               ElevatedButton(
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text("Grade"),
-                    SizedBox(width: 10),
+
+                    SizedBox(width: 11),
                     Icon(
                       Icons.percent,
-                      size: 50,
+                      size: 51,
                     ),
                   ],
                 ),
