@@ -14,9 +14,11 @@ class _CourseState extends State<Course> {
       child: Scaffold (
         appBar: AppBar(
           centerTitle: true,
+
           title: Text("Course Details"),
         ),
         body: Column(
+
           children: [
             TabBar(tabs: [
               Tab(
