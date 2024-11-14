@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sample_app/colors.dart'; // Make sure this file defines GlobalColors.mainColor
+import 'package:sample_app/colors.dart'; 
 
 class Home extends StatelessWidget {
   const Home({Key? key}) : super(key: key);
@@ -28,10 +28,10 @@ class Home extends StatelessWidget {
         backgroundColor: GlobalColors.mainColor,
       ),
       body: Center(
-        child: SingleChildScrollView( // Add SingleChildScrollView here
+        child: SingleChildScrollView( 
           padding: EdgeInsets.only(top: 50.0),
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.center, // Center vertically
+            mainAxisAlignment: MainAxisAlignment.center, 
             children: [
               ElevatedButton(
                 child: Row(
@@ -46,7 +46,7 @@ class Home extends StatelessWidget {
                   ],
                 ),
                 onPressed: () {
-                  
+                  //
                 },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: GlobalColors.mainColor,
@@ -72,7 +72,7 @@ class Home extends StatelessWidget {
                   ],
                 ),
                 onPressed: () {
-                 
+                  //
                 },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: GlobalColors.mainColor,
@@ -97,7 +97,7 @@ class Home extends StatelessWidget {
                   ],
                 ),
                 onPressed: () {
-                  // Add action for Grade button
+                  
                 },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: GlobalColors.mainColor,
@@ -116,4 +116,3 @@ class Home extends StatelessWidget {
     );
   }
 }
-
