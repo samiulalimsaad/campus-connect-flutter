@@ -46,7 +46,7 @@ class Home extends StatelessWidget {
                   ],
                 ),
                 onPressed: () {
-                 
+                  //
                 },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: GlobalColors.mainColor,
@@ -72,23 +72,26 @@ class Home extends StatelessWidget {
                   ],
                 ),
                 onPressed: () {
-                  
+                  //
                 },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: GlobalColors.mainColor,
                   padding: EdgeInsets.all(20.0),
+
                   fixedSize: Size(305, 80),
                   textStyle: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
                   side: BorderSide(color: Colors.black87, width: 2),
                   shape: StadiumBorder(),
                 ),
               ),
+
               SizedBox(height: 11.0),
               ElevatedButton(
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text("Grade"),
+
                     SizedBox(width: 11),
                     Icon(
                       Icons.percent,
