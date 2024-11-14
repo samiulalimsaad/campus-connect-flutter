@@ -46,7 +46,7 @@ class Home extends StatelessWidget {
                   ],
                 ),
                 onPressed: () {
-                  // Add action for Profile button
+                  
                 },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: GlobalColors.mainColor,
@@ -72,7 +72,7 @@ class Home extends StatelessWidget {
                   ],
                 ),
                 onPressed: () {
-                  // Add action for Courses button
+                 
                 },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: GlobalColors.mainColor,
